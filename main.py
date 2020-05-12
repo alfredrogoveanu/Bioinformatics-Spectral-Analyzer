@@ -82,6 +82,14 @@ for i in range(h):
             array.append("#F8696B")
     array_big.append(array)
 
+#Print the M matrix into Matrix_M.txt file
+file_M = open("Matrix_M.txt", "w")
+for i in range(h):
+        for j in range(w):
+            file_M.write(str(Mat_M[i][j]) + " ")
+        file_M.write("\n")
+file_M.close()
+
 #Plotting the restulting M matrix.
 idx = Index(np.arange(1,11))
 df = DataFrame(Mat_M, index=idx)
