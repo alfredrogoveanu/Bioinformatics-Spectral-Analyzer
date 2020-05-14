@@ -4,7 +4,7 @@ Student: ROGOVEANU Alfred (1240F)
 
 An implementation after: Paul A. Gagniuc et al. Spectral forecast: A general purpose prediction model as an alternative to classical neural networks. Chaos 30, 033119 (2020); doi: 10.1063/1.5120818 (https://aip.scitation.org/doi/10.1063/1.5120818)
 
-The following equation was implemented:
+The following equation was implemented in Python:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=M_{ijd}&space;=&space;[(\frac{d}{Max(A_{ij})})\times&space;A_{ij}]&plus;[(\frac{Max(d)-d}{Max(B_{ij})})\times&space;B_{ij}]" target="_blank"><img src="https://latex.codecogs.com/png.latex?M_{ijd}&space;=&space;[(\frac{d}{Max(A_{ij})})\times&space;A_{ij}]&plus;[(\frac{Max(d)-d}{Max(B_{ij})})\times&space;B_{ij}]" title="M_{ijd} = [(\frac{d}{Max(A_{ij})})\times A_{ij}]+[(\frac{Max(d)-d}{Max(B_{ij})})\times B_{ij}]" /></a>
 
